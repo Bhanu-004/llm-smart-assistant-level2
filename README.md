@@ -32,7 +32,7 @@ This chatbot is designed as part of the **Level 2: Medium** tier of an LLM assis
 ## 📂 File Structure
 
 ```plaintext
-📁 level2/
+📁 
 ├── chatbot_with_tool.py         # Main chatbot app (GUI + logic)
 ├── calculator_tool.py           # Tool to parse and compute math expressions
 ├── interaction_logs.txt         # Stores all user-bot conversations
