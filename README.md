@@ -23,6 +23,12 @@ This chatbot is designed as part of the **Level 2: Medium** tier of an LLM assis
 
 ---
 
+
+<img width="503" height="476" alt="lv21" src="https://github.com/user-attachments/assets/26db5694-a638-4cfe-a0f2-87fd316d8fd4" />
+
+
+
+
 ## 📂 File Structure
 
 ```plaintext
