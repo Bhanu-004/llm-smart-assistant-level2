@@ -1,17 +1,32 @@
-#  LLM Smart Assistant — Level 2 (LLM + Tool Integration)
+# 🤖 LLM Smart Assistant – Level 2
 
-This project is a **Level 2 intelligent chatbot** that combines a **Large Language Model (LLM)** with a custom-built **calculator tool**. Built with a user-friendly **Tkinter GUI**, the assistant is capable of understanding user queries and deciding whether to use the **Gemini API** (for general questions) or the **calculator tool** (for basic math operations).
+An AI-powered desktop chatbot built with **Python**, featuring:
+
+-  Google Gemini LLM (Gemini 1.5)
+-  Basic calculator tool for math queries
+-  GUI built with Tkinter
+-  Voice input and text-to-speech output
+-  Interaction logging (`interaction_logs.txt`)
+
+---
+
+##  Description
+
+This chatbot is designed as part of the **Level 2: Medium** tier of an LLM assistant challenge.
+
+- It detects **math-related questions** and uses a custom calculator tool to answer them.
+- It handles **general knowledge queries** using the Gemini LLM.
+- It **logs all interactions** to a local text file.
+- Voice input (🎤) and speech output (🔊) make the interaction hands-free and accessible.
+
+>  Multi-intent queries like "Multiply 9 and 8 and also tell me the capital of Japan" are gracefully rejected, as per the level's constraints.
 
 ---
 
-##  Features
+## 📂 File Structure
 
--  Gemini LLM API integration
--  Math detection and calculator tool usage
--  Multi-intent query detection and graceful handling
--  GUI-based chat interaction using Tkinter
--  Voice output (Text-to-Speech)
--  Voice input support (via microphone)
--  Conversation logs saved to `interaction_logs.txt`
-
----
+```plaintext
+📁 level2/
+├── chatbot_with_tool.py         # Main chatbot app (GUI + logic)
+├── calculator_tool.py           # Tool to parse and compute math expressions
+├── interaction_logs.txt         # Stores all user-bot conversations
