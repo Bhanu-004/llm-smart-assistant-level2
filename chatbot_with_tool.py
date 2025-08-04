@@ -9,7 +9,7 @@ import speech_recognition as sr
 import threading
 
 # ========== Setup Gemini API ==========
-genai.configure(api_key=os.getenv("GEMINI_API_KEY") or "AIzaSyBhP4-zGDNln9jFISGZOkdDD6VaioVO5T0")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY") or "your-api-key")
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash-latest")
 chat = model.start_chat(history=[])
 
@@ -147,4 +147,5 @@ def send_message():
 
 # ========== Run App ==========
 root.mainloop()
+
 
